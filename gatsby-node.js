@@ -39,7 +39,7 @@ exports.createPages = ({ actions, graphql }) => {
 		}
 
 		const posts = result.data.allMdx.edges
-		const postsPerPage = 2
+		const postsPerPage = 10
 		const pageCount = Math.ceil(posts.length / postsPerPage)
 
 		posts.forEach(({ node, next, previous }) => {
