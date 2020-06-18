@@ -69,3 +69,4 @@ yarn-error.log
 .yarn-integrity
 
 email/output.html
+package-lock.json
