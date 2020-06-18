@@ -65,7 +65,7 @@ function createWave({ canvas, count, ctx, fill }, speed) {
 
 	const getNextY = () =>
 		[getA(), getB() / 2, getC() / 4].reduce(
-			(acc, cur, i) => acc + (Math.sin(cur) + 1) / (i + 1),
+			(acc, cur, i) => acc + (Math.sin(cur/2) + 1) / (i + 1),
 			0
 		) / 4
 
