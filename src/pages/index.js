@@ -10,6 +10,7 @@ import {
 } from 'src/components'
 import { useWindowWidth } from 'src/hooks'
 import { get } from 'src/utils'
+import WorkExperience from '../components/WorkExperience'
 
 const IndexPage = ({ data }) => {
 	const width = useWindowWidth()
@@ -23,11 +24,9 @@ const IndexPage = ({ data }) => {
 			<WaveSection>
 				<h1 className="intro-title">Hello!</h1>
 				<p>
-					I'm Vedansh Garg, a software engineer with a background in
-					design, currently working at{' '}
-					<Link to="https://webflow.com/">Webflow</Link>. I build
-					highly scaleable web apps, contribute to open source, and
-					write fiction in my spare time!
+					I'm Vedansh Garg, a software engineer, currently working at{' '}
+					<Link to="https://oyorooms.com/">OYO</Link>. I build
+					highly scaleable web apps & contribute to open source
 				</p>
 				<br />
 				<p>
@@ -64,6 +63,7 @@ const IndexPage = ({ data }) => {
 					</PostGrid>
 				</>
 			) : null}
+			<WorkExperience/>
 		</Layout>
 	)
 }
