@@ -7,7 +7,7 @@ import { HeaderElement, NavLink, Space } from './styles'
 import SubNav from './SubNav'
 
 const Header = ({ activePage, footerIsVisible, siteTitle }) => (
-	<HeaderElement className="background transition primary-links">
+	<HeaderElement className="header background transition primary-links">
 		<nav>
 			<Link to="/" className="site-title">
 				<Icon name="Icon" fill={null} />

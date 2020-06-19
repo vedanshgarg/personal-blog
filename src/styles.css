@@ -38,6 +38,10 @@ pre {
 	background-color: var(--background);
 }
 
+.header{
+	padding-right: 5px;
+}
+
 html body {
 	background-color: var(--primary);
 }
