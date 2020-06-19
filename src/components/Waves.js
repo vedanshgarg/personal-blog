@@ -5,7 +5,7 @@ import { rgba } from 'polished'
 import { useRaptoriTheme } from 'src/hooks'
 
 const Canvas = styled.canvas`
-	border-bottom: 5px solid var(--primary);
+	margin: 0px;
 	height: 100px;
 	vertical-align: bottom;
 	width: 100vw;
@@ -28,7 +28,7 @@ const frames = Array.from(Array(frameCount + 1), (_, frame) =>
 		...ranges.map(([min, range]) =>
 			Math.floor(min + (range * frame) / frameCount)
 		),
-		0.33
+		0.5
 	)
 )
 
