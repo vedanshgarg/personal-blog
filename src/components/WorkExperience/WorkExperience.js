@@ -10,7 +10,7 @@ const WorkExperience = () => (
 		<VerticalTimeline className="work-ex" >
 			<VerticalTimelineElement
 				className="vertical-timeline-element--work"
-				contentStyle={{ background: 'var(--primary)', color: 'var(--dark)' }}
+				contentStyle={{ background: 'var(--primary)', color: 'var(--dark)', boxShadow: '0px 0px 10px #00000025' }}
 				contentArrowStyle={{ borderRight: '7px solid  var(--primary)' }}
 				date="Jan 2020 - present"
 				dateClassName="work-ex-date"
@@ -25,7 +25,7 @@ const WorkExperience = () => (
 			</VerticalTimelineElement>
 			<VerticalTimelineElement
 				className="vertical-timeline-element--work"
-				contentStyle={{ background: 'var(--primary)', color: 'var(--dark)' }}
+				contentStyle={{ background: 'var(--primary)', color: 'var(--dark)', boxShadow: '0px 0px 10px #00000025' }}
 				contentArrowStyle={{ borderRight: '7px solid  var(--primary)' }}
 				date="May 2019 - July 2019"
 				dateClassName="work-ex-date"
