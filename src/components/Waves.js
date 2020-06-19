@@ -5,7 +5,6 @@ import { rgba } from 'polished'
 import { useRaptoriTheme } from 'src/hooks'
 
 const Canvas = styled.canvas`
-	border-bottom: 5px solid var(--primary);
 	height: 100px;
 	vertical-align: bottom;
 	width: 100vw;

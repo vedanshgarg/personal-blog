@@ -18,10 +18,10 @@ const WorkExperience = () => (
 				// icon={<WorkIcon />}
 			>
 				<h3 className="vertical-timeline-element-title">Oyo Rooms</h3>
-				<h4 className="vertical-timeline-element-subtitle">Software Development Engineer</h4>
-				<h10>
+				<h5 className="vertical-timeline-element-subtitle">Software Development Engineer</h5>
+				<p>
 					Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-				</h10>
+				</p>
 			</VerticalTimelineElement>
 			<VerticalTimelineElement
 				className="vertical-timeline-element--work"
@@ -33,10 +33,10 @@ const WorkExperience = () => (
 				// icon={<WorkIcon />}
 			>
 				<h3 className="vertical-timeline-element-title">Coding Ninjas</h3>
-				<h4 className="vertical-timeline-element-subtitle">Software Development Intern</h4>
-				<h10>
+				<h5 className="vertical-timeline-element-subtitle">Software Development Intern</h5>
+				<p>
 					Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-				</h10>
+				</p>
 			</VerticalTimelineElement>
 		</VerticalTimeline>
 	</>
