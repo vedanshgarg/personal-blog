@@ -7,7 +7,6 @@ import { useRaptoriTheme } from 'src/hooks'
 const Canvas = styled.canvas`
 	border-bottom: 5px solid var(--primary);
 	height: 100px;
-	${props => (props.invert ? 'margin-top' : 'margin-bottom')}: -5px;
 	vertical-align: bottom;
 	width: 100vw;
 
@@ -17,7 +16,7 @@ const Canvas = styled.canvas`
 // colour values as [dark, light]
 // convert to tuples in form [min, range]
 const ranges = [
-	[159, 150], // red
+	[150, 150], // red
 	[165, 165], // green
 	[185, 185], // blue
 ].map(([dark, light]) => [dark, light - dark])
