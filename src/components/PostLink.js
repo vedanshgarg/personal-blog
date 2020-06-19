@@ -37,13 +37,11 @@ const StyledLink = styled(Link)`
 		!props.inFooter
 			? `
 			
-		box-shadow: 0px 0px 20px #00000055;
+		box-shadow: 0px 0px 20px #00000070;
 		border-radius: .5rem;
 
 		&:hover {
-			box-shadow:
-				0 1rem 2rem var(--shadow),
-				0 0 1rem var(--shadow);
+			box-shadow: 0px 0px 30px #00000070;
 			transform: translate(0, -.2rem) scale(1.02);
 		}
 	`

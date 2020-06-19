@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
-		title: `Raptori`,
-		description: `Joe McGrath - Portfolio`,
+		title: `Vedansh Garg`,
+		description: `Vedansh Garg - My Site`,
 		author: `@thisRaptori`,
 		url: `https://raptori.dev`,
 	},
@@ -54,8 +54,8 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: `Raptori`,
-				short_name: `Raptori`,
+				name: `Vedansh Garg`,
+				short_name: `Vedansh`,
 				start_url: `/`,
 				background_color: `#43b9b7`,
 				theme_color: `#43b9b7`,

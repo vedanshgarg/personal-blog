@@ -23,7 +23,7 @@ const IndexPage = ({ data }) => {
 			<WaveSection>
 				<h1 className="intro-title">Hello!</h1>
 				<p>
-					I'm Joe McGrath, a software engineer with a background in
+					I'm Vedansh Garg, a software engineer with a background in
 					design, currently working at{' '}
 					<Link to="https://webflow.com/">Webflow</Link>. I build
 					highly scaleable web apps, contribute to open source, and
