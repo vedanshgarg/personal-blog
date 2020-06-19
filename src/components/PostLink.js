@@ -18,7 +18,7 @@ padding: 1.5rem 1.5rem 1rem calc(50% + 4.5rem);
 }`
 
 const StyledLink = styled(Link)`
-	color: var(${props => (props.inFooter ? '--dark' : '--text')}) !important;
+	color: var(${props => (props.inFooter ? '--dark' : '--primary')}) !important;
 	display: flex;
 	flex-direction: column;
 	margin: 1rem -1rem -1rem;
@@ -82,6 +82,7 @@ const StyledLink = styled(Link)`
 	}
 
 	h4 {
+		color: var(${props => (props.inFooter ? '--dark' : '--text')}) !important;
 		line-height: 1.3;
 	}
 
