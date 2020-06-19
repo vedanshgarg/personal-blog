@@ -5,7 +5,7 @@
 	}
 
 	var themeQuery = matchMedia('(prefers-color-scheme: dark)')
-	window.isCurrentThemeDark = false
+	window.isCurrentThemeDark = true
 
 	window.themeObservable = {
 		subscribe: listener => {

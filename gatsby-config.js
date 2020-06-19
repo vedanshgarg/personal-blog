@@ -2,8 +2,8 @@ module.exports = {
 	siteMetadata: {
 		title: `Vedansh Garg`,
 		description: `Vedansh Garg - My Site`,
-		author: `@thisRaptori`,
-		url: `https://raptori.dev`,
+		author: `vedansh.garg.7@gmail.com`,
+		url: `https://vedansh.netlify.app/`,
 	},
 	plugins: [
 		`gatsby-plugin-styled-components`,
@@ -67,7 +67,7 @@ module.exports = {
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
 				anonymize: true,
-				trackingId: 'UA-140200159-1',
+				trackingId: 'UA-170135490-1',
 			},
 		},
 		`gatsby-theme-waves`,
