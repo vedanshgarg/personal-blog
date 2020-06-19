@@ -100,7 +100,7 @@ export const MobileNav = styled.div`
 	${props =>
 		props.footerIsVisible &&
 		`
-		background: #8695a6 !important;
+		background: var(--source) !important;
 		--primary: var(--dark);
 		--secondary: var(--secondary-dark);
 	`}

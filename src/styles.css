@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:200,400,400i,700,700i');
 
 :root {
-	--source: rgba(150, 165, 185, 0.88);
+	--source: #8997ac;
 	--primary: var(--source);
 	--primary-faded: #43b9b755;
 	--primary-transparent: #43b9b700;
@@ -39,7 +39,7 @@ pre {
 }
 
 html body {
-	background-color: #8695a6;
+	background-color: var(--primary);
 }
 
 html body,

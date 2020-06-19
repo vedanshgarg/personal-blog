@@ -27,7 +27,7 @@ const frames = Array.from(Array(frameCount + 1), (_, frame) =>
 		...ranges.map(([min, range]) =>
 			Math.floor(min + (range * frame) / frameCount)
 		),
-		0.29
+		0.33
 	)
 )
 
