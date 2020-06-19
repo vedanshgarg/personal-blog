@@ -43,27 +43,27 @@ const IndexPage = ({ data }) => {
 					</Link>
 				</p>
 			</WaveSection>
-			{edges.length ? (
-				<>
-					<h3>Featured Posts</h3>
-					<PostGrid wide>
-						{edges.map((edge, i) => (
-							<PostLink
-								key={edge.node.id}
-								featured={
-									isDesktop
-										? edge.node.frontmatter.tags.includes(
-												'home-featured'
-										  )
-										: i === 0
-								}
-								post={edge.node}
-							/>
-						))}
-					</PostGrid>
-				</>
-			) : null}
 			<WorkExperience/>
+			{/*{edges.length ? (*/}
+			{/*	<>*/}
+			{/*		<h3>Featured Posts</h3>*/}
+			{/*		<PostGrid wide>*/}
+			{/*			{edges.map((edge, i) => (*/}
+			{/*				<PostLink*/}
+			{/*					key={edge.node.id}*/}
+			{/*					featured={*/}
+			{/*						isDesktop*/}
+			{/*							? edge.node.frontmatter.tags.includes(*/}
+			{/*							'home-featured'*/}
+			{/*							)*/}
+			{/*							: i === 0*/}
+			{/*					}*/}
+			{/*					post={edge.node}*/}
+			{/*				/>*/}
+			{/*			))}*/}
+			{/*		</PostGrid>*/}
+			{/*	</>*/}
+			{/*) : null}*/}
 		</Layout>
 	)
 }
