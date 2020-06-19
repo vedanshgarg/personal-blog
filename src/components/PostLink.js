@@ -36,9 +36,8 @@ const StyledLink = styled(Link)`
 	${props =>
 		!props.inFooter
 			? `
-		box-shadow:
-			0 .5rem 1rem var(--shadow),
-			0 0 1rem var(--shadow);
+			
+		box-shadow: 0px 0px 20px #00000055;
 		border-radius: .5rem;
 
 		&:hover {
@@ -51,7 +50,6 @@ const StyledLink = styled(Link)`
 			: ''}
 
 	.gatsby-image-wrapper {
-		background: var(--text);
 		flex: 0 0 160px;
 		margin: -1rem -1rem 1rem -1rem;
 	}

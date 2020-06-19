@@ -17,9 +17,9 @@ const Canvas = styled.canvas`
 // colour values as [dark, light]
 // convert to tuples in form [min, range]
 const ranges = [
-	[45, 66], // red
-	[178, 208], // green
-	[176, 202], // blue
+	[159, 150], // red
+	[165, 165], // green
+	[185, 185], // blue
 ].map(([dark, light]) => [dark, light - dark])
 const frameCount = Math.floor(200 / 16)
 
