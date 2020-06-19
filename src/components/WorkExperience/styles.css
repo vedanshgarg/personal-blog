@@ -1,0 +1,22 @@
+.work-ex{
+  margin-top: 25px;
+}
+
+.work-ex-date{
+  color: var(--primary);
+  font-size: 16px !important;
+}
+
+@media (min-width: 780px) {
+  .work-ex{
+    margin-left: calc(320px - 40vw);
+    width: 80vw !important;
+  }
+}
+
+@media (min-width: 1425px) {
+  .work-ex{
+    margin-left: -250px;
+    width: 1140px !important;
+  }
+}
