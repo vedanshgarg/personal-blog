@@ -40,7 +40,7 @@ const Header = ({ activePage, footerIsVisible, siteTitle }) => (
 					<span>LinkedIn</span>
 				</NavLink>
 			</SubNav>
-			<ThemeToggle />
+			{/*<ThemeToggle />*/}
 		</nav>
 	</HeaderElement>
 )

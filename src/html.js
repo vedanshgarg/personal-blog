@@ -24,6 +24,9 @@ export default function HTML(props) {
 				{props.headComponents}
 			</head>
 			<body {...props.bodyAttributes}>
+				<script>
+					window.isCurrentThemeDark = true;
+				</script>
 				{themeScript}
 				{props.preBodyComponents}
 				<noscript key="noscript" id="gatsby-noscript">
