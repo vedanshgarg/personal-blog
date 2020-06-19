@@ -139,6 +139,10 @@ a:link,
 	color: var(--primary);
 }
 
+a:focus{
+	outline: none;
+}
+
 a:focus,
 a:hover,
 .primary-links a:visited:focus,
@@ -232,6 +236,10 @@ button {
 	background: transparent;
 	border: none;
 	cursor: pointer;
+}
+
+button:focus{
+	outline: none;
 }
 
 code {
