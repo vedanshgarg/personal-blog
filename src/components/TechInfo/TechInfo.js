@@ -7,13 +7,17 @@ import icons from './icons'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./styles.css";
+import useIsTablet from '../../hooks/useIsTablet'
 
 const TechInfo = () => {
 
 	const isMobile = useIsMobile();
+	const isTablet = useIsTablet();
 	let slidesToShow = 6;
 	if(isMobile){
 		slidesToShow = 3;
+	}else if(isTablet){
+		slidesToShow = 4;
 	}
 
 	const settings = {
