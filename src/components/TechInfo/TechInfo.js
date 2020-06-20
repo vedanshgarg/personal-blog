@@ -1,9 +1,11 @@
 import React from 'react'
 import Slider from "react-slick";
 
+import { useIsMobile } from '../../hooks';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useIsMobile } from '../../hooks'
+import "./styles.css";
 
 const TechInfo = () => {
 
@@ -14,7 +16,8 @@ const TechInfo = () => {
 	}
 
 	const settings = {
-		autoplaySpeed: 2500,
+		className: "techinfo-slider",
+		autoplaySpeed: 2000,
 		arrows: false,
 		centerMode: true,
 		swipeToSlide: true,
@@ -28,29 +31,31 @@ const TechInfo = () => {
 	return (
 		<>
 			<h2> Technologies I've worked with</h2>
-			<Slider {...settings}>
-				<div>
-					<h1>1</h1>
-				</div>
-				<div>
-					<h1>2</h1>
-				</div>
-				<div>
-					<h1>3</h1>
-				</div>
-				<div>
-					<h1>4</h1>
-				</div>
-				<div>
-					<h1>5</h1>
-				</div>
-				<div>
-					<h1>6</h1>
-				</div>
-				<div>
-					<h1>7</h1>
-				</div>
-			</Slider>
+			<div className="slider-container">
+				<Slider {...settings}>
+					<div>
+						<h1>1</h1>
+					</div>
+					<div>
+						<h1>2</h1>
+					</div>
+					<div>
+						<h1>3</h1>
+					</div>
+					<div>
+						<h1>4</h1>
+					</div>
+					<div>
+						<h1>5</h1>
+					</div>
+					<div>
+						<h1>6</h1>
+					</div>
+					<div>
+						<h1>7</h1>
+					</div>
+				</Slider>
+			</div>
 		</>
 	)
 }

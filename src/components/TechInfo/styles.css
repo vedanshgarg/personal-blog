@@ -1,0 +1,9 @@
+.slider-container{
+  height: 100px;
+}
+
+.techinfo-slider{
+  position: fixed;
+  left: 0px;
+  width: 100vw;
+}
