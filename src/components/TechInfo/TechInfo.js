@@ -22,15 +22,21 @@ const TechInfo = () => {
 
 	const settings = {
 		className: "techinfo-slider",
-		autoplaySpeed: 2000,
+		autoplaySpeed: 0,
 		arrows: false,
+		cssEase: 'linear',
 		swipeToSlide: true,
 		dots: false,
+		draggable: false,
+		swipe: false,
+		touchMove: false,
+		pauseOnHover: false,
 		slidesToShow: slidesToShow,
 		slidesToScroll: 1,
 		infinite: true,
 		autoplay: true,
-		speed: 1000
+		speed: 5000,
+		rtl: true
 	}
 	return (
 		<>
