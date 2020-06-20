@@ -6,7 +6,7 @@ import "./styles.css";
 
 const WorkExperience = () => (
 	<>
-		<h1> Work Experience</h1>
+		<h2> Work Experience</h2>
 		<VerticalTimeline className="work-ex" >
 			<VerticalTimelineElement
 				className="vertical-timeline-element--work"

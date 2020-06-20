@@ -11,6 +11,7 @@ import {
 import { useWindowWidth } from 'src/hooks'
 import { get } from 'src/utils'
 import WorkExperience from '../components/WorkExperience'
+import TechInfo from '../components/TechInfo'
 
 const IndexPage = ({ data }) => {
 	const width = useWindowWidth()
@@ -44,26 +45,29 @@ const IndexPage = ({ data }) => {
 				</p>
 			</WaveSection>
 			<WorkExperience/>
-			{/*{edges.length ? (*/}
-			{/*	<>*/}
-			{/*		<h3>Featured Posts</h3>*/}
-			{/*		<PostGrid wide>*/}
-			{/*			{edges.map((edge, i) => (*/}
-			{/*				<PostLink*/}
-			{/*					key={edge.node.id}*/}
-			{/*					featured={*/}
-			{/*						isDesktop*/}
-			{/*							? edge.node.frontmatter.tags.includes(*/}
-			{/*							'home-featured'*/}
-			{/*							)*/}
-			{/*							: i === 0*/}
-			{/*					}*/}
-			{/*					post={edge.node}*/}
-			{/*				/>*/}
-			{/*			))}*/}
-			{/*		</PostGrid>*/}
-			{/*	</>*/}
-			{/*) : null}*/}
+			<WaveSection>
+				<TechInfo/>
+			</WaveSection>
+			{edges.length ? (
+				<>
+					<h2>Featured Blog Posts</h2>
+					<PostGrid wide>
+						{edges.map((edge, i) => (
+							<PostLink
+								key={edge.node.id}
+								featured={
+									isDesktop
+										? edge.node.frontmatter.tags.includes(
+										'home-featured'
+										)
+										: i === 0
+								}
+								post={edge.node}
+							/>
+						))}
+					</PostGrid>
+				</>
+			) : null}
 		</Layout>
 	)
 }
