@@ -7,7 +7,7 @@ import "./styles.css";
 const WorkExperience = () => (
 	<>
 		<h2> Work Experience</h2>
-		<VerticalTimeline className="work-ex" >
+		<VerticalTimeline animate={false} className="work-ex" >
 			<VerticalTimelineElement
 				className="vertical-timeline-element--work"
 				contentStyle={{ background: 'var(--primary)', color: 'var(--dark)', boxShadow: '0px 0px 10px #00000025' }}
