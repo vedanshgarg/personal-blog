@@ -4,8 +4,21 @@
 }
 
 .single-slide{
+  margin-top: 30px;
+  display: flex !important;
+  flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.single-slide img {
+  height: 88px;
+}
+
+.slide-lable{
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 @media (max-width: 600px) {
