@@ -1,9 +1,15 @@
-.slider-container{
-  height: 100px;
+.techinfo-slider{
+  margin-left: calc(320px - 50vw);
+  width: 100vw;
 }
 
-.techinfo-slider{
-  position: fixed;
-  left: 0px;
-  width: 100vw;
+.single-slide{
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .techinfo-slider{
+    margin-left: -2rem;
+  }
 }

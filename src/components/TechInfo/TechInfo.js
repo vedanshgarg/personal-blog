@@ -30,32 +30,30 @@ const TechInfo = () => {
 	}
 	return (
 		<>
-			<h2> Technologies I've worked with</h2>
-			<div className="slider-container">
-				<Slider {...settings}>
-					<div>
-						<h1>1</h1>
-					</div>
-					<div>
-						<h1>2</h1>
-					</div>
-					<div>
-						<h1>3</h1>
-					</div>
-					<div>
-						<h1>4</h1>
-					</div>
-					<div>
-						<h1>5</h1>
-					</div>
-					<div>
-						<h1>6</h1>
-					</div>
-					<div>
-						<h1>7</h1>
-					</div>
-				</Slider>
-			</div>
+			<h2> Technologies I've worked on</h2>
+			<Slider {...settings}>
+				<div className="single-slide">
+					<h1>1</h1>
+				</div>
+				<div className="single-slide">
+					<h1>2</h1>
+				</div>
+				<div className="single-slide">
+					<h1>3</h1>
+				</div>
+				<div className="single-slide">
+					<h1>4</h1>
+				</div>
+				<div className="single-slide">
+					<h1>5</h1>
+				</div>
+				<div className="single-slide">
+					<h1>6</h1>
+				</div>
+				<div className="single-slide">
+					<h1>7</h1>
+				</div>
+			</Slider>
 		</>
 	)
 }
