@@ -9,12 +9,12 @@ import Kibana from "../../images/tech-info-icons/Kibana.png";
 
 const icons = [
 	{ id: 1, src: Springboot, title: 'SpringBoot' },
-	{ id: 1, src: Kubernetes, title: 'Kubernetes' },
-	{ id: 1, src: Docker, title: 'Docker' },
-	{ id: 1, src: React, title: 'React' },
-	{ id: 1, src: Angular, title: 'Angular' },
-	{ id: 1, src: Grafana, title: 'Grafana' },
-	{ id: 1, src: Kibana, title: 'Kibana' },
+	{ id: 2, src: Kubernetes, title: 'Kubernetes' },
+	{ id: 3, src: Docker, title: 'Docker' },
+	{ id: 4, src: React, title: 'React' },
+	{ id: 5, src: Angular, title: 'Angular' },
+	{ id: 6, src: Grafana, title: 'Grafana' },
+	{ id: 7, src: Kibana, title: 'Kibana' },
 ];
 
 export default icons;
