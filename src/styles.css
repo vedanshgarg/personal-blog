@@ -43,7 +43,7 @@ pre {
 }
 
 html body {
-	background-color: var(--primary);
+	background: var(--dark);
 }
 
 html body,
@@ -91,7 +91,7 @@ button {
 /* End Transition Styles */
 
 html {
-	background: var(--primary);
+	background: var(--dark);
 	font-size: 62.5%;
 	font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
 	min-width: 320px;

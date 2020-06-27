@@ -6,7 +6,7 @@ const workexp = [
 		id: 1,
 		iconSrc: CodingNinjas,
 		background: '#dd6621',
-		iconPadding: '5px',
+		iconPadding: '6px',
 		date: 'May 2019 - July 2019',
 		title: 'Coding Ninjas',
 		subtitle: 'Software Development Intern',
