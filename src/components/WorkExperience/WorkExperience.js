@@ -18,8 +18,8 @@ const WorkExperience = () => (
 					contentArrowStyle={{ borderRight: '7px solid  var(--primary)' }}
 					date={exp.date}
 					dateClassName="work-ex-date"
-					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					icon={<Icon src={exp.iconSrc}/>}
+					iconStyle={{ background: exp.background , color: '#fff' }}
+					icon={<Icon src={exp.iconSrc} padding={exp.iconPadding}/>}
 				>
 					<h3 className="vertical-timeline-element-title">{exp.title}</h3>
 					<h5 className="vertical-timeline-element-subtitle">{exp.subtitle}</h5>

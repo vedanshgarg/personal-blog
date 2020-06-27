@@ -2,9 +2,9 @@ import React from 'react';
 
 import "./styles.css";
 
-const Icon = ({src}) => (
+const Icon = ({src,padding}) => (
 	<div className="icon-container">
-		<img src={src}/>
+		<img src={src} style={{padding: padding}}/>
 	</div>
 );
 

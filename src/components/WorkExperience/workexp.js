@@ -1,9 +1,12 @@
+import CodingNinjas from "../../images/work-ex-icons/CodingNinjas.svg"
 import OyoRooms from "../../images/work-ex-icons/OyoRooms.svg";
 
 const workexp = [
 	{
 		id: 1,
-		iconSrc: OyoRooms,
+		iconSrc: CodingNinjas,
+		background: '#dd6621',
+		iconPadding: '5px',
 		date: 'May 2019 - July 2019',
 		title: 'Coding Ninjas',
 		subtitle: 'Software Development Intern',
@@ -12,6 +15,8 @@ const workexp = [
 	{
 		id: 2,
 		iconSrc: OyoRooms,
+		background: '#ee2e24',
+		iconPadding: '0px',
 		date: 'Jan 2020 - Present',
 		title: 'Oyo Rooms',
 		subtitle: 'Software Development Engineer',
