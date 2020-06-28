@@ -23,18 +23,18 @@ const Header = ({ activePage, footerIsVisible, siteTitle }) => (
 					<Icon name="Rocket" />
 					<span>Projects</span>
 				</NavLink>
-				<NavLink active={activePage === 'resume'} to="/resume">
-					<Icon name="Info" />
-					<span>Resume</span>
-				</NavLink>
+				{/*<NavLink active={activePage === 'resume'} to="/resume">*/}
+				{/*	<Icon name="Info" />*/}
+				{/*	<span>Resume</span>*/}
+				{/*</NavLink>*/}
 				<NavLink to={github}>
 					<Icon name="GitHub" />
 					<span>GitHub</span>
 				</NavLink>
-				<NavLink to={twitter}>
-					<Icon name="Twitter" />
-					<span>Twitter</span>
-				</NavLink>
+				{/*<NavLink to={twitter}>*/}
+				{/*	<Icon name="Twitter" />*/}
+				{/*	<span>Twitter</span>*/}
+				{/*</NavLink>*/}
 				<NavLink to={linkedin}>
 					<Icon name="LinkedIn" />
 					<span>LinkedIn</span>

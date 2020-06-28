@@ -35,11 +35,6 @@ export const HeaderElement = styled.header`
 		}
 	}
 
-	@media (max-width: 440px) {
-		a[href*='linkedin'] {
-			display: none;
-		}
-	}
 `
 
 export const NavLink = styled(Link)`
