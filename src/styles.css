@@ -91,7 +91,7 @@ button {
 /* End Transition Styles */
 
 html {
-	background: var(--dark);
+	background: var(--primary);
 	font-size: 62.5%;
 	font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
 	min-width: 320px;
