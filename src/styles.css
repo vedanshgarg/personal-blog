@@ -153,21 +153,26 @@ a:focus{
 	outline: none;
 }
 
-a:focus,
 a:hover,
-.primary-links a:visited:focus,
 .primary-links a:visited:hover {
 	color: var(--secondary);
 }
 
-a:visited {
-	color: var(--contrast);
-}
+/*a:focus,*/
+/*a:hover,*/
+/*.primary-links a:visited:focus,*/
+/*.primary-links a:visited:hover {*/
+/*	color: var(--secondary);*/
+/*}*/
 
-a:visited:focus,
-a:visited:hover {
-	color: var(--contrast-secondary);
-}
+/*a:visited {*/
+/*	color: var(--contrast);*/
+/*}*/
+
+/*a:visited:focus,*/
+/*a:visited:hover {*/
+/*	color: var(--contrast-secondary);*/
+/*}*/
 
 h1,
 h2,
