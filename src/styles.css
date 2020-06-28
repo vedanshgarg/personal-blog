@@ -115,17 +115,23 @@ input {
 
 @media (max-width: 615px) {
 	body {
-		padding-bottom: calc(var(--menu-height) + env(safe-area-inset-bottom));
+		padding-bottom: calc(var(--menu-height) + env(safe-area-inset-bottom) - 12px);
 	}
 }
 
 body {
-	--background: var(--light);
-	--shadow: var(--light-shadow);
-	--text: var(--dark);
-	--secondary: var(--secondary-dark);
-	--contrast-secondary: var(--contrast-secondary-dark);
-	--alternate: var(--alternate-dark);
+	/*--background: var(--light);*/
+	/*--shadow: var(--light-shadow);*/
+	/*--text: var(--dark);*/
+	/*--secondary: var(--secondary-dark);*/
+	/*--contrast-secondary: var(--contrast-secondary-dark);*/
+	/*--alternate: var(--alternate-dark);*/
+	--background: var(--dark);
+	--shadow: var(--dark-shadow);
+	--text: var(--light);
+	--secondary: var(--secondary-light);
+	--contrast-secondary: var(--contrast-secondary-light);
+	--alternate: var(--alternate-light);
 }
 
 body.dark {

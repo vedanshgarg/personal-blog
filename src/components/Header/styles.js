@@ -11,17 +11,6 @@ export const HeaderElement = styled.header`
 	top: 0;
 	z-index: 3;
 
-	:before {
-		background: var(--primary);
-		bottom: 100%;
-		content: '';
-		height: 100vh;
-		left: 0;
-		position: fixed;
-		right: 0;
-		z-index: -1;
-	}
-
 	nav {
 		line-height: inherit;
 		display: flex;
