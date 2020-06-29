@@ -39,8 +39,7 @@ const getButtonStyles = props => {
 	${opacity}
 	${mainStyles}
 
-	&:hover,
-	&:focus {
+	&:hover {
 		background: var(--secondary);
 		${hoverStyles}
 	}

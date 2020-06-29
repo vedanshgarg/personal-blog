@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => {
 					</Link>
 					&nbsp;
 					<Link to="/vedansh-garg-resume.pdf" external secondary button>
-						Resume <span style={{fontSize: '85%'}}>⬇</span>
+						Resume <span style={{fontSize: '80%'}}>⬇</span>
 					</Link>
 				</p>
 			</WaveSection>
