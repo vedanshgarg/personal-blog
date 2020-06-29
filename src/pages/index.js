@@ -39,7 +39,7 @@ const IndexPage = ({ data }) => {
 						Projects
 					</Link>
 					&nbsp;
-					<Link to="/joe-mcgrath-resume.pdf" external secondary button>
+					<Link to="/vedansh-garg-resume.pdf" external secondary button>
 						Resume <span style={{fontSize: '85%'}}>⬇</span>
 					</Link>
 				</p>
