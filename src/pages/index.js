@@ -39,8 +39,8 @@ const IndexPage = ({ data }) => {
 						Projects
 					</Link>
 					&nbsp;
-					<Link to="/resume" secondary button>
-						Resume
+					<Link to="/joe-mcgrath-resume.pdf" external button>
+						Resume <span style={{fontSize: '85%'}}>⬇</span>
 					</Link>
 				</p>
 			</WaveSection>
