@@ -32,14 +32,14 @@ const IndexPage = ({ data }) => {
 				<br />
 				<p>
 					<Link to="/blog" button>
-						All Posts
+						Blog
 					</Link>
 					&nbsp;
 					<Link to="/projects" secondary button>
 						Projects
 					</Link>
 					&nbsp;
-					<Link to="/joe-mcgrath-resume.pdf" external button>
+					<Link to="/joe-mcgrath-resume.pdf" external secondary button>
 						Resume <span style={{fontSize: '85%'}}>⬇</span>
 					</Link>
 				</p>
