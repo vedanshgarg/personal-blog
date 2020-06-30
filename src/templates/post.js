@@ -39,7 +39,7 @@ const PostHeader = styled.header`
 		${MetaText} {
 			border-right: 1px solid;
 			font-size: 0;
-			margin: 3rem 2rem 0 0;
+			margin: 3rem 3rem 0 0;
 			padding-right: 2rem;
 			position: absolute;
 			right: 100%;

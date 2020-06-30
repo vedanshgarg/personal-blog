@@ -27,7 +27,7 @@ const IndexPage = ({ data }) => {
 				<p>
 					I'm Vedansh Garg, a software engineer, currently working at{' '}
 					<Link to="https://oyorooms.com/">OYO</Link>. I build
-					highly scaleable web apps & contribute to open source. The Blogs here are by Joe McGrath.
+					highly scaleable web apps & contribute to open source. The Blog posts here are by Joe McGrath.
 				</p>
 				<br />
 				<p>
@@ -58,7 +58,7 @@ const IndexPage = ({ data }) => {
 								featured={
 									isDesktop
 										? edge.node.frontmatter.tags.includes(
-										'home-featured'
+										'featured'
 										)
 										: i === 0
 								}
