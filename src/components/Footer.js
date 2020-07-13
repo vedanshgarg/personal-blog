@@ -22,8 +22,7 @@ const year = new Date().getFullYear()
 const Footer = () => (
 	<Wrapper>
 		<Text>
-			Copyright {year} Joe McGrath •{' '}
-			<Link to="https://github.com/thisRaptori/raptori">
+			<Link to="https://github.com/vedanshgarg/personal-blog">
 				View source code <Icon name="GitHub" />
 			</Link>
 		</Text>
