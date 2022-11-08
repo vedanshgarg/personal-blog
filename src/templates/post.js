@@ -9,7 +9,6 @@ import {
 	Layout,
 	Link,
 	MetaText,
-	NewsletterSignup,
 	SEO,
 	WaveSection,
 } from 'src/components'
@@ -216,7 +215,7 @@ export default function Template({
 					</NextPrevLinks>
 				</>
 			}
-			belowTheWaves={<NewsletterSignup />}
+
 		/>
 	)
 }

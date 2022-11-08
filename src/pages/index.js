@@ -25,9 +25,9 @@ const IndexPage = ({ data }) => {
 			<WaveSection>
 				<h1 className="intro-title">Hello!</h1>
 				<p>
-					I'm Vedansh Garg, a software engineer, currently working at{' '}
+					I'm Vedansh Garg, a Software Engineer, currently working at{' '}
 					<Link to="https://oyorooms.com/">OYO</Link>. I build
-					highly scaleable web apps & contribute to open source. The Blog posts here are by Joe McGrath.
+					highly scaleable web apps & contribute to open source. The projects here are by Joe McGrath since the site is still a WIP.
 				</p>
 				<br />
 				<p>
@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => {
 					</Link>
 					&nbsp;
 					<Link to="/VedanshGarg.pdf" external secondary button>
-						Resume <span style={{fontSize: '80%'}}>⬇</span>
+						Resume <span style={{fontSize: '90%'}}>▼</span>
 					</Link>
 				</p>
 			</WaveSection>

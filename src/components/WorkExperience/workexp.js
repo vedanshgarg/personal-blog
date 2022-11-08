@@ -17,9 +17,19 @@ const workexp = [
 		iconSrc: OyoRooms,
 		background: '#ee2e24',
 		iconPadding: '0px',
-		date: 'Jan 2020 - Present',
+		date: 'Jan 2020 - Jul 2021',
 		title: 'Oyo Rooms',
 		subtitle: 'Software Development Engineer',
+		description: 'Creative Direction, User Experience, Visual Design, Project Management, Team Leading'
+	},
+	{
+		id: 3,
+		iconSrc: OyoRooms,
+		background: '#ee2e24',
+		iconPadding: '0px',
+		date: 'Aug 2021 - Present',
+		title: 'Oyo Rooms',
+		subtitle: 'Software Development Engineer 2',
 		description: 'Creative Direction, User Experience, Visual Design, Project Management, Team Leading'
 	},
 ];
