@@ -125,8 +125,8 @@ const ProjectsPage = () => (
 				<br/>
 				<img src={Two048Demo} />
 				<p>
-					Created around mid 2018, when I got first introduces to Javascript & its wonders.
-					Naive Vedansh was not aware of advanced technologies like React and Angular, thus using the 3 basic building blocks of front-end (HTML, CSS & JS), created the then popular game of 2048.
+					Created around mid 2018, when I got first introduced to Javascript.
+					Naive Vedansh was not aware of advanced technologies like React and Angular, thus using the 3 basic building blocks of front-end (HTML, CSS & JS), created the then popular game: 2048.
 				</p>
 				<p>
 					🕹️ Animated using DOM manipulation by plain JS<br/>
