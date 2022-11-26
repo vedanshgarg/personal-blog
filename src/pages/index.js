@@ -27,7 +27,7 @@ const IndexPage = ({ data }) => {
 				<p>
 					I'm Vedansh Garg, a Software Engineer, currently working at{' '}
 					<Link to="https://oyorooms.com/">OYO</Link>. I build
-					highly scaleable web apps & contribute to open source. The projects here are by Joe McGrath since the site is still a WIP.
+					highly scaleable web apps & contribute to open source. The site is still a Work In Progress.
 				</p>
 				<br />
 				<p>
