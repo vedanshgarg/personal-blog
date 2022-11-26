@@ -54,7 +54,7 @@ const ProjectsPage = () => (
 					<img src="https://img.shields.io/chrome-web-store/users/gcjikeldobhnaglcoaejmdlmbienoocg?style=for-the-badge"/>
 				</a>
 				&nbsp;&nbsp;
-				<a href="https://chrome.google.com/webstore/detail/spantree-gitlab-tree/gcjikeldobhnaglcoaejmdlmbienoocg">
+				<a href="https://github.com/tavyandy97/span-tree">
 					<img src="https://img.shields.io/github/stars/tavyandy97/span-tree?color=red&style=for-the-badge"/>
 				</a>
 				&nbsp;&nbsp;
@@ -66,7 +66,7 @@ const ProjectsPage = () => (
 					<img src="https://img.shields.io/chrome-web-store/v/gcjikeldobhnaglcoaejmdlmbienoocg?style=for-the-badge"/>
 				</a>
 				&nbsp;&nbsp;
-				<a href="https://chrome.google.com/webstore/detail/spantree-gitlab-tree/gcjikeldobhnaglcoaejmdlmbienoocg">
+				<a href="https://addons.mozilla.org/en-GB/firefox/addon/spantree-gitlab-tree/">
 					<img src="https://img.shields.io/amo/v/spantree-gitlab-tree?style=for-the-badge"/>
 				</a>
 				<img src={SpanTreeDemo} />
