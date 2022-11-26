@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import SpanTreeDemo from "../images/project/SpanTreeDemo.gif"
+import Two048Demo from "../images/project/2048.gif"
 
 import {
 	Icon,
@@ -112,7 +113,17 @@ const ProjectsPage = () => (
 			</WaveSection>
 
 			<section>
-				<h3>2048</h3>
+				<h3><QueryImage
+					name="2048Icon"
+					style={{
+						display: 'inline-block',
+						marginRight: '10px',
+						verticalAlign: 'middle',
+						width: 64,
+					}}
+				/>{' '}2048</h3>
+				<br/>
+				<img src={Two048Demo} />
 				<p>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 				</p>
