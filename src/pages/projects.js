@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import SpanTreeDemo from "../images/project/SpanTreeDemo.gif"
+import Two048Demo from "../images/project/2048.gif"
 
 import {
 	Icon,
@@ -112,19 +113,35 @@ const ProjectsPage = () => (
 			</WaveSection>
 
 			<section>
-				<h3>2048</h3>
+				<h3><QueryImage
+					name="2048Icon"
+					style={{
+						display: 'inline-block',
+						marginRight: '10px',
+						verticalAlign: 'middle',
+						width: 68,
+					}}
+				/>{' '}2048</h3>
+				<br/>
+				<img src={Two048Demo} />
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					Created around mid 2018, when I got first introduced to Javascript.
+					Naive Vedansh was not aware of advanced technologies like React and Angular, thus using the 3 basic building blocks of front-end (HTML, CSS & JS), created the then popular game: 2048.
 				</p>
 				<p>
-					It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					🕹️ Animated using DOM manipulation by plain JS<br/>
+					🕹️ Highest Score support using local storage<br/>
+					🕹️ Touch (Swipe) support for mobile devices<br/>
+				</p>
+				<p>
+					Objective is simple: Combine numbered tiles in order to gain a higher numbered tile. You start with two tiles, the lowest possible number available is 2. Then you will play by combining the tiles with the same number to have a tile with the sum of the number on the two tiles.
 				</p>
 				<Small>
 					<Link
 						to="https://vedanshgarg.github.io/2048/"
 						button
 					>
-						Website
+						Play
 					</Link>
 					&nbsp;
 					<Link
