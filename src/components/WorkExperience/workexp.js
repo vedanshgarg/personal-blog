@@ -30,7 +30,7 @@ const workexp = [
 		iconSrc: Zomato,
 		background: '#e23744',
 		iconPadding: '0px',
-		date: 'Nov 2021 - Present',
+		date: 'Nov 2023 - Present',
 		title: 'Zomato',
 		subtitle: 'Software Development Engineer 2',
 		description:
